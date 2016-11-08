@@ -3,14 +3,22 @@
 <component type="Form" layout="BoxLayout" boxLayoutAxis="Y"  title="GuiComponent" name="GuiComponent">
   <component type="Label" text="UserName" name="Label_1">
   </component>
-  <component type="TextField" text="" hint="UserName" name="UserName" actionEvent="true">
+  <component type="TextField" hint="UserName" name="UserName" actionEvent="true">
   </component>
   <component type="Label" text="Email" name="Email">
   </component>
-  <component type="TextField" text="" hint="Email Address" name="email">
+  <component type="TextField" hint="Email Address" name="email">
   </component>
-  <component type="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0"  name="Container_1">
-    <component type="Button" text="Login" rTL="false" name="Button_1" actionEvent="true">
-    </component>
+  <component type="Label" text="Latitude" uiid="latitude" name="latitude">
+  </component>
+  <component type="TextField" hint="Latitude" name="edit_latitude">
+  </component>
+  <component type="Label" text="Longitude" name="label_longitude">
+  </component>
+  <component type="TextField" hint="Longitude" name="edit_longitude">
+  </component>
+  <component type="Button" text="Capture Picture" name="bttn_capture_pic" actionEvent="true">
+  </component>
+  <component type="SpanButton" text="Add Person" name="Add" actionEvent="true">
   </component>
 </component>
